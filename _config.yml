@@ -1,1 +1,29 @@
-theme: jekyll-theme-hacker
+title: Lampnets - Advanced Urban Edge Computing
+email: chenhaowu@link.cuhk.edu.cn
+description: >
+  Project Webpage for Lampnets
+  providing demo, documentation and development news
+lang: en-US
+
+url: https://lampnets.github,io
+git_address: https://github.com/lampnets.github.io
+
+remote_theme: aksakalli/jekyll-doc-theme@gh-pages   
+
+bootwatch: simplex
+
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .idea/
+  - .gitignore
+  - README.md
