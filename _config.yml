@@ -10,7 +10,7 @@ git_address: https://github.com/lampnets.github.io
 
 remote_theme: aksakalli/jekyll-doc-theme@gh-pages   
 
-bootwatch: simplex
+bootwatch: paper
 
 markdown: kramdown
 highlighter: rouge
